@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hierarchical Tree Formation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Hierarchical Tree Formation</h1>
+    <div id="tree-container"></div>
+    <div id="controls">
+      <h2>Node Operations</h2>
+      <select id="node-type">
+        <option value="single">Single Node</option>
+        <option value="child">Child Node</option>
+        <option value="parent">Parent Node</option>
+      </select>
+      <input type="text" placeholder="Node Value" id="node-value" />
+      <button id="add-node">Add Node</button>
+      <hr />
+      <h2>Selected Node</h2>
+      <input type="text" placeholder="Search Node..." id="search-node" />
+      <button id="update-node">Update Node</button>
+      <button id="delete-node">Delete Node</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+#tree-container {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#controls {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#controls h2 {
+  margin-bottom: 5px;
+}
+
+#controls input,
+#controls select {
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#controls button {
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+#tree-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 15px;
+}
+
+#tree-container li {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #f5f5f5;
+  position: relative;
+  cursor: pointer;
+}
+
+#tree-container li:hover {
+  background-color: #e5e5e5;
+}
+
+#tree-container li.selected-node {
+  background-color: #ddd;
+}
+
+#tree-container li::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+#tree-container li ul {
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  #tree-container,
+  #controls {
+    width: 100%;
+  }
+}
