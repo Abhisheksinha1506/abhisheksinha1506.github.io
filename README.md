@@ -1,5 +1,7 @@
 
-Hierarchical Tree Formation Application: Instructions
+Hierarchical Tree Formation Application: 
+
+Instructions
 ** Welcome!**
 
 This project is a simple web application for creating and managing hierarchical trees. It uses HTML, CSS, and JavaScript to provide an intuitive interface for adding, searching, updating, and deleting nodes in the tree structure.
